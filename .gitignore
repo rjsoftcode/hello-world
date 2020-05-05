@@ -1,7 +1,42 @@
+# maven ignore
+.mvn/
+target/
+
+# eclipse ignore
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# pods ignore
+Pods/
+
+# kdiff3 ignore
+*.orig
+
 # Compiled class file
+bin/
 *.class
 
 # Log file
+logs/
 *.log
 
 # BlueJ files
@@ -15,6 +50,7 @@
 *.war
 *.ear
 *.zip
+*.tar
 *.tar.gz
 *.rar
 
